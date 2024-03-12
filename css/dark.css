@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right, blue, rgb(28, 0, 59));
+    background-image: linear-gradient(to right, rgb(0, 0, 75), rgb(64, 39, 94));
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 #banner {
-    background-color: cyan;
+    background-color: rgb(5, 70, 70);
     text-align: center;
     border: 1px solid #000000;
     margin: 10px;
@@ -21,14 +21,14 @@ body {
 #blogposts {
     margin: 10px;
     border: 1px solid #000000;
-    background-color: #ff0037;
+    background-color: #5c0014;
 }
 
 .post {
     margin: 10px;
     padding: 10px;
     border: 1px solid #000000;
-    background-color: rgb(252, 5, 169);
+    background-color: rgb(94, 2, 63);
 }
 
 .post .left {
@@ -47,12 +47,16 @@ body {
     justify-content: space-around;
 }
 
+div {
+    transition: width 2s, height 2s, transform 2s;
+  }
+
 h1 {
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #ffffff;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
   }
 
 h2 {
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #ffffff;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
   }
