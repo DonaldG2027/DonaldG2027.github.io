@@ -8,4 +8,5 @@ To make a long story short, the dude you play as is terrible at having a good sl
 - Cool mechanics!
 - Cut scenes!
 - *insert other blatant lies here*
-note: The scene where Reid sings his beautiful cover of Romantic Homicide by d4vd has been cut due to recent events.
+
+NOTE: The scene where Reid sings his beautiful cover of Romantic Homicide by d4vd has been cut due to recent events.
