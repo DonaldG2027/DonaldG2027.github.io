@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">
+    <link id="darkSheet"  rel="stylesheet" media="none" href="css/dark.css">
+</head>
+<body>
+    <div id="content">
+        <div id="banner">
+            <h1>About the guy who made this site</h1>
+            <a href="index.html" class="button">Main Page</a>
+            <a href="gettoschool.html" class="button">Get To School</a>
+            <a href="#" class="button" onclick="changeSheet()">Change Mode</a>
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>About Me</h2>
+                <p>Yo, name's Donald. This was a site I made for a game called Get To School my freshman year of high school for my programming class. Ever since then I have grown a significant amount, both physically and mentally. In my technical area we got to pick from 3 of the areas in our technical area to go into for junior and senior year, and i picked Programming as i thought it would be the better choice.</p>
+            </div>
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>What do i do in my freetime?</h2>
+                <p>Ever since i made this site, my hobbies have expanded. I joined the football team and I play as a defensive tackle on JV. I also joined the track team, which i do Mid-Distance for. I spend my time playing video games, working out, listening to music, doing homework if i'm not lazy that day, and chilling with friends and family.</p>
+            </div>  
+        </div>  
+        <div id="blogposts">
+            <div class="post">
+                <h2>What do i want to do after high school?</h2>
+                <p>The ideal plan would be to go to college for Computer Engineering. Some colleges i have in mind include Pennsylvania College of Technology for Computer Engineering or Accounting, Johns Hopkins University for Computer Engineering,or University of Pennsylvania for Finance. </p>
+            </div>
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>Anything else?</h2>
+                <p>Not really, if you want to know more about me, just ask. I don't bite. Unless you're a cookie.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+    var lightMode = true;
+
+    function changeSheet() {
+
+        lightMode = !lightMode;
+
+        var lightSheet = document.getElementById("lightSheet")
+        var darkSheet = document.getElementById("darkSheet")
+        
+        if(lightMode == false) {
+            console.log("Turning dark mode on...");
+            darkSheet.media = ""
+            lightSheet.media = "none";
+        } else {
+            console.log("Turning light mode on...");
+            darkSheet.media = "none"
+            lightSheet.media = "";
+        }
+    }
+</script>
+</html>

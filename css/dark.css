@@ -1,0 +1,92 @@
+body {
+    font-family: comic-sans-ms, comic-sans, cursive;
+    background-image: linear-gradient(to right, rgb(39, 32, 99), rgb(17, 0, 19));
+    margin: auto;
+    padding: 0;
+    opacity: 0;
+    animation: mymove 4s forwards;
+    display: flex;
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #000000;
+    background-image: linear-gradient(to right, rgb(116, 18, 39), rgb(27, 0, 8));
+}
+
+#banner {
+    background-image: linear-gradient(to right, rgb(29, 40, 138), rgb(14, 0, 31));
+    text-align: center;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+#blogposts {
+    margin: 10px;
+    border: 1px solid #000000;
+    background-color: #530101;
+
+
+}
+
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(58, 8, 65);
+}
+
+.post .left {
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+.post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.button {
+    background-color: #49021a;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

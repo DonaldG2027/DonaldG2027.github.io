@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get To School 5</title>
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">
+    <link id="darkSheet"  rel="stylesheet" media="none" href="css/dark.css">
+
+</head>
+<body>
+    <div id="content">
+        <div id="banner">
+            <h1>Get to School 5</h1>
+            <a href="index.html" class="button">Main Page</a>
+            <a href="about.html" class="button">About Me</a>
+            <a href="#" class="button" onclick="changeSheet()">Change Mode</a>
+        </div>
+        <div id="blogposts">
+            <div class="post"> 
+                <h2>What is Get To School?</h2>
+                <p>Get to School is a totally original indie game about one simple task: getting to school. What happens is you try to get to school on time so your parents won't beat you and ground you again. You have missed the bus one too many times and your parents arent having any of it anymore.</p>
+                <img src="img/titlescreen.png" alt="">
+                <h2>Just one problem...</h2>
+                <p>Your alarm didn't really wake you up, so you end up missing the bus. And since your parents are done with giving you car rides to school, you have to walk to school in order to get there on time. As expected, you face numerous challenges along the way, and now you are pitted in a race against nature and time to get to school on time. Time to get to moving, pal!</p>
+                <img src="img/raceagainstime.png" alt="">
+    </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>Play Get to School today! Or else you might just be late to school as well...</h2>
+                <p>Click <a href="GetToSchool5/index.html">here</a> to play.</p>
+            </div>
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>Gallery</h2>
+                <div class="Gallery">
+                    <a href="img/home.png"><img src="img/home.png"></a>
+                    <a href="img/snow.png"><img src="img/snow.png"></a>
+                    <a href="img/bossfight.png"><img src="img/bossfight.png"></a>
+                    <a href="img/ahiddendoorintheforest.png"><img src="img/ahiddendoorintheforest.png"></a>
+                    <a href="img/anewfriend.png"><img src="img/anewfriend.png"></a>
+                    <a href="img/bankteller.png"><img src="img/bankteller.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+
+<script>
+
+    var lightMode = true;
+
+    function changeSheet() {
+
+        lightMode = !lightMode;
+
+        var lightSheet = document.getElementById("lightSheet")
+        var darkSheet = document.getElementById("darkSheet")
+
+        if(lightMode == false) {
+            console.log("Turning dark mode on...");
+            darkSheet.media = ""
+            lightSheet.media = "none";
+        } else {
+            console.log("Turning light mode on...");
+            darkSheet.media = "none"
+            lightSheet.media = "";
+        }
+    }
+</script>
+</html>

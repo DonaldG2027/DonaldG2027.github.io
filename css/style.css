@@ -1,0 +1,91 @@
+body {
+    font-family: comic-sans-ms, comic-sans, cursive;
+    background-image: linear-gradient(to right, blue, rgb(255, 255, 255));
+    margin: auto;
+    padding: 0;
+    opacity: 0;
+    animation: mymove 4s forwards;
+    display: flex;
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #000000;
+    background-image: linear-gradient(to right, rgb(255, 41, 87), rgb(77, 0, 23));
+}
+
+#banner {
+    background-image: linear-gradient(to right, rgb(41, 230, 255), rgb(0, 14, 77));
+    text-align: center;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+#blogposts {
+    margin: 10px;
+    border: 1px solid #000000;
+    background-color: #ff0037;
+
+
+}
+
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(252, 5, 169);
+}
+
+.post .left {
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+.post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.button {
+    background-color: #aa043b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
