@@ -11,4 +11,4 @@ To make a long story short, the kid you play as, Reid, is terrible at having a g
 
 NOTE: The scene where Reid sings his beautiful cover of Romantic Homicide by d4vd has been cut due to recent events.
 
--# side note, how many times am I gonna have to replace these covers? First, I had to remove the one of "It Seems Like You're Ready" after this girl looked at me weird when I played the cover for her, then I had to replace "I'll Be Missing You" after Diddy's arrest, and now I have to replace d4vd too. What am I supposed to do for the cover now? I'm genuinely out of ideas.
+#### side note, how many times am I gonna have to replace these covers? First, I had to remove the one of "It Seems Like You're Ready" after this girl looked at me weird when I played the cover for her, then I had to replace "I'll Be Missing You" after Diddy's arrest, and now I have to replace d4vd too. What am I supposed to do for the cover now? I'm genuinely out of ideas.
