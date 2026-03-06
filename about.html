@@ -13,7 +13,6 @@
             <h1>About the guy who made this site</h1>
             <a href="index.html" class="button">Main Page</a>
             <a href="gettoschool.html" class="button">Get To School</a>
-            <a href="#" class="button" onclick="changeSheet()">Change Mode</a>
         </div>
         <div id="blogposts">
             <div class="post">
@@ -43,25 +42,5 @@
 </body>
 
 <script>
-
-    var lightMode = true;
-
-    function changeSheet() {
-
-        lightMode = !lightMode;
-
-        var lightSheet = document.getElementById("lightSheet")
-        var darkSheet = document.getElementById("darkSheet")
-        
-        if(lightMode == false) {
-            console.log("Turning dark mode on...");
-            darkSheet.media = ""
-            lightSheet.media = "none";
-        } else {
-            console.log("Turning light mode on...");
-            darkSheet.media = "none"
-            lightSheet.media = "";
-        }
-    }
 </script>
 </html>

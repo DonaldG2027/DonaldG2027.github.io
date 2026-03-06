@@ -1,6 +1,6 @@
 body {
     font-family: comic-sans-ms, comic-sans, cursive;
-    background-image: linear-gradient(to right, blue, rgb(255, 255, 255));
+    background-image: linear-gradient(to right, rgb(1, 27, 100), rgb(1, 27, 100));
     margin: auto;
     padding: 0;
     opacity: 0;
@@ -17,11 +17,11 @@ body {
     width: 60%;
     margin: auto;
     border: 1px solid #000000;
-    background-image: linear-gradient(to right, rgb(255, 41, 87), rgb(77, 0, 23));
+    background-image: linear-gradient(to right, rgb(0, 217, 255), rgb(0, 217, 255));
 }
 
 #banner {
-    background-image: linear-gradient(to right, rgb(41, 230, 255), rgb(0, 14, 77));
+    background-image: linear-gradient(to right, rgb(0, 28, 153), rgb(0, 28, 153));
     text-align: center;
     border: 1px solid #000000;
     margin: 10px;
@@ -30,7 +30,7 @@ body {
 #blogposts {
     margin: 10px;
     border: 1px solid #000000;
-    background-color: #ff0037;
+    background-color: #000000;
 
 
 }
@@ -39,7 +39,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: 1px solid #000000;
-    background-color: rgb(252, 5, 169);
+    background-color: rgb(10, 21, 85);
 }
 
 .post .left {
@@ -73,8 +73,8 @@ h2 {
 }
 
 .button {
-    background-color: #aa043b;
-    border: none;
+    background-color: #3004aa;
+    border: 1px solid #000000;
     color: white;
     padding: 15px 32px;
     text-align: center;

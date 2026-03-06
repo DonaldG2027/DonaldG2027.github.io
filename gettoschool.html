@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get To School 5</title>
-    <link id="lightSheet" rel="stylesheet" href="css/style.css">
-    <link id="darkSheet"  rel="stylesheet" media="none" href="css/dark.css">
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">>
 
 </head>
 <body>
@@ -14,18 +13,17 @@
             <h1>Get to School 5</h1>
             <a href="index.html" class="button">Main Page</a>
             <a href="about.html" class="button">About Me</a>
-            <a href="#" class="button" onclick="changeSheet()">Change Mode</a>
         </div>
         <div id="blogposts">
             <div class="post"> 
                 <h2>What is Get To School?</h2>
                 <p>Get to School is a totally original indie game about one simple task: getting to school.</p>
                 <h2>What's the big deal?</h2>
-                <p>The kid you play, Reid, has some... issues. He has a hard time waking up in the morning, and his parents are sick of giving him rides to school. So, they set up an alarm clock that is supposed to wake him up on time. But, as you can probably guess, things don't go as planned.</p>
+                <p>The kid you play as, Reid, has some... issues. He has a hard time waking up in the morning, and his parents are sick of giving him rides to school. So, they set up an alarm clock that is supposed to wake him up on time. But, as you can probably guess, things don't go as planned.</p>
                 <h2>What goes wrong?</h2>
                 <p>The alarm didn't really wake him up, and he ends up missing the bus. And since his parents are already late for work, they can't give him a ride. So, Reid has to find his own way to school. But, of course, it's not that simple. There are many obstacles in his way, and he has to use his wits and skills to overcome them.</p>
                 <h2>So what now?</h2>
-                <p>Well, that's where you come in. You have to help Reid get to school on time. This won't be easy however, as there are many obstacles along the way. You have to go through multiple passes, fight enemies, and near the... actually, you'll find out what happens when you play the game. It's not going to be easy, but if you can help this kid get to school, you'll be rewarded greatly.</p> // i'm lying 
+                <p>Well, that's where you come in. You have to help Reid get to school on time. This won't be easy however, as there are many obstacles along the way. You have to go through multiple passes, fight enemies, and near the... actually, you'll find out what happens when you play the game. It's not going to be easy, but if you can help this kid get to school, you'll be rewarded greatly.</p>
     </div>
         <div id="blogposts">
             <div class="post">
@@ -51,25 +49,5 @@
 </body>
 
 <script>
-
-    var lightMode = true;
-
-    function changeSheet() {
-
-        lightMode = !lightMode;
-
-        var lightSheet = document.getElementById("lightSheet")
-        var darkSheet = document.getElementById("darkSheet")
-
-        if(lightMode == false) {
-            console.log("Turning dark mode on...");
-            darkSheet.media = ""
-            lightSheet.media = "none";
-        } else {
-            console.log("Turning light mode on...");
-            darkSheet.media = "none"
-            lightSheet.media = "";
-        }
-    }
 </script>
 </html>
