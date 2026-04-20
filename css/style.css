@@ -90,3 +90,15 @@ p {
     font-size: larger;
     color: white;
 }
+
+ul {
+    text-align: left;
+    color: white;
+}
+li {
+    font-size: larger;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
