@@ -1,6 +1,6 @@
 body {
     font-family: comic-sans-ms, comic-sans, cursive;
-    background-image: linear-gradient(to right, rgb(1, 27, 100), rgb(1, 27, 100));
+    background-image: linear-gradient(to right, rgb(47, 79, 79), rgb(30, 41, 59));
     margin: auto;
     padding: 0;
     opacity: 0;
@@ -16,21 +16,29 @@ body {
 #content {
     width: 60%;
     margin: auto;
-    border: 1px solid #000000;
-    background-image: linear-gradient(to right, rgb(0, 217, 255), rgb(0, 217, 255));
+    border: 1px solid rgb(71, 85, 105);
+    background-image: linear-gradient(to right, rgb(71, 85, 105), rgb(51, 65, 85));
 }
 
 #banner {
-    background-image: linear-gradient(to right, rgb(0, 28, 153), rgb(0, 28, 153));
+    background-image: linear-gradient(to right, rgb(30, 41, 59), rgb(15, 23, 42));
     text-align: center;
-    border: 1px solid #000000;
+    border: 1px solid rgb(56, 189, 248);
     margin: 10px;
+    position: relative;
 }
-
+#banner h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(56, 189, 248);
+    font-size: 3em;
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #blogposts {
     margin: 10px;
-    border: 1px solid #000000;
-    background-color: #000000;
+    border: 1px solid rgb(71, 85, 105);
+    background-color: rgb(15, 23, 42);
 
 
 }
@@ -38,8 +46,8 @@ body {
 .post {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #000000;
-    background-color: rgb(10, 21, 85);
+    border: 1px solid rgb(56, 189, 248);
+    background-image: linear-gradient(to right, rgb(55, 65, 81), rgb(67, 56, 202));
 }
 
 .post .left {
@@ -48,6 +56,14 @@ body {
     float: left;
 }
 
+.post h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(167, 139, 250);
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .post img {
     display: block;
     margin-left: auto;
@@ -63,18 +79,18 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px #ffffff;
+    text-shadow: 2px 2px 4px rgb(56, 189, 248);
 }
 
 h2 {
     text-align: center;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px #ffffff;
+    text-shadow: 2px 2px 4px rgb(167, 139, 250);
 }
 
 .button {
-    background-color: #3004aa;
-    border: 1px solid #000000;
+    background-image: linear-gradient(to right, rgb(99, 102, 241), rgb(236, 72, 153));
+    border: 1px solid rgb(56, 189, 248);
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -83,6 +99,69 @@ h2 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, rgb(6, 182, 212), rgb(139, 92, 246));
+}
+
+.nav-menu {
+    margin-top: 8px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid rgb(56, 189, 248);
+    background-image: linear-gradient(to right, rgb(99, 102, 241), rgb(236, 72, 153));
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-top: 0;
+        z-index: 10;
+    }
+
+    .menu-icon {
+        display: inline-block;
+    }
+
+    .menu-links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 6px;
+        background-color: rgb(30, 41, 59);
+        border: 1px solid rgb(56, 189, 248);
+        padding: 6px;
+    }
+
+    .menu-links .button {
+        display: block;
+        margin: 4px 0;
+        padding: 10px 16px;
+    }
+
+    .menu-toggle:checked + .menu-icon + .menu-links {
+        display: flex;
+    }
 }
 
 p {
@@ -99,6 +178,10 @@ li {
     font-size: larger;
 }
 a {
-    color: white;
+    color: rgb(125, 211, 252);
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(249, 168, 212);
 }
